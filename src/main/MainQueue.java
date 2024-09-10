@@ -24,6 +24,6 @@ public class MainQueue {
 		
 		System.out.println("--------------------");
 		
-		System.out.println(queue.sizeElements());
+		queue.printQueue();
 	}
 }
