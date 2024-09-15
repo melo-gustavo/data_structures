@@ -19,8 +19,8 @@ public class MainSimpleList {
 			list.addLastPosition(20);
 			list.addLastPosition(21);
 			list.addByPosition(30, 3);
-			// list.removeFirstPosition();
-			// list.removeLastPosition();
+			list.removeFirstPosition();
+			list.removeLastPosition();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
